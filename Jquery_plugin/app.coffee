@@ -7,7 +7,7 @@
 	user_options =
 
 	$.fn.slavent = (params) ->
-		options = $.extend {}, $.fn.slavent.def_options, user_options
+		options = $.extend {}, def_options, user_options
 
 		init = () ->
 
